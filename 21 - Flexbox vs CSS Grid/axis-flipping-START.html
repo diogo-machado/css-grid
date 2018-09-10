@@ -35,6 +35,15 @@
   </div>
 
   <style>
+    .flip{
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+      grid-gap: 10px;
+    }
+
+    .flipper .flip{
+      grid-template-columns: 1fr;
+    }
   </style>
 </body>
 
