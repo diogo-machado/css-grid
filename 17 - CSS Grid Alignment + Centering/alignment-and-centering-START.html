@@ -70,7 +70,17 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: repeat(10, 1fr);
+      grid-template-columns: repeat(5, 100px);
+      grid-template-rows: repeat(5,100px);
+      /*
+      justify-items: center;
+      align-items: center;
+      */
+      place-items: center center;
+      justify-content: space-between;
+    }
+    .itm{
+      background: white;
     }
   </style>
 </body>
